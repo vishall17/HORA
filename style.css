@@ -948,7 +948,7 @@
     margin-block-end: 120px;
   }
   
-  .about-banner > .w-100 { padding-inline-start: 50px; }
+  .about-banner > .w-100 { padding-inline-start: 10px; }
   
   .about .abs-img { position: absolute; }
   
@@ -1382,7 +1382,7 @@
     min-height: 100vh;
     width:100vw;
     text-align: center;
-    background-color: #222;;
+    background-color: #171716;;
   }
   
   .team .heading{
@@ -1403,7 +1403,7 @@
   .team .row .card{
     height:35rem;
     width:25rem;
-    background:#fff;
+    background:#190303;
     text-align: center;
     margin:7rem 2rem;
     position: relative;
@@ -1411,39 +1411,40 @@
     -webkit-box-reflect: below .2rem linear-gradient(transparent 70%, #0004);
   }
   
-  .team .row .card .image{
+  .team .row .card .image1{
     margin:1rem 0;
     padding-top: 4rem;
+    padding-left: 23%;
   }
   
-  .team .row .card .image img{
-    height:13rem;
-    width:13rem;
+  .team .row .card .image1 img{
+    height:14rem;
+    width:14rem;
     border-radius: 50%;
     border:.5rem solid #fff;
     box-shadow: 0 0 .5rem rgba(0,0,0,.3);
-    object-fit: cover;
+    object-fit:cover;
   }
   
   .team .row .card .info h3{
     font-size: 2rem;
-    color:#333;
+    color:orange;
   }
   
   .team .row .card .info span{
     font-size: 1.8rem;
-    color:var(--color);
+    color:yellow;
   }
   
   .team .row .card .info .icons a{
     margin-top: 4rem;
     padding:0 1rem;
     font-size: 2rem;
-    color:#333;
+    color:#fff;
   }
   
   .team .row .card .info .icons a:hover{
-    color:var(--color);
+    color:#fff;
   }
   
   .team .row .card::before, .team .row .card::after{
@@ -1461,7 +1462,7 @@
   }
   
   .team .row .card::after{
-    background:#ccc;
+    background:brown;
     bottom:-3rem; left: -4rem;
   }
   
